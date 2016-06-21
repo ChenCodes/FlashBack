@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4389BDED1D18D55500E71A86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4389BDEC1D18D55500E71A86 /* AppDelegate.swift */; };
+		4389BDEF1D18D55500E71A86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4389BDEE1D18D55500E71A86 /* ViewController.swift */; };
+		4389BDF21D18D55500E71A86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4389BDF01D18D55500E71A86 /* Main.storyboard */; };
+		4389BDF41D18D55500E71A86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4389BDF31D18D55500E71A86 /* Assets.xcassets */; };
+		4389BDF71D18D55500E71A86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4389BDF51D18D55500E71A86 /* LaunchScreen.storyboard */; };
+		4389BE021D18D55500E71A86 /* FlashBackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4389BE011D18D55500E71A86 /* FlashBackTests.swift */; };
+		4389BE0D1D18D55500E71A86 /* FlashBackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4389BE0C1D18D55500E71A86 /* FlashBackUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4389BDFE1D18D55500E71A86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4389BDE11D18D55400E71A86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4389BDE81D18D55500E71A86;
+			remoteInfo = FlashBack;
+		};
+		4389BE091D18D55500E71A86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4389BDE11D18D55400E71A86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4389BDE81D18D55500E71A86;
+			remoteInfo = FlashBack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4389BDE91D18D55500E71A86 /* FlashBack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashBack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4389BDEC1D18D55500E71A86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4389BDEE1D18D55500E71A86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4389BDF11D18D55500E71A86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4389BDF31D18D55500E71A86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4389BDF61D18D55500E71A86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4389BDF81D18D55500E71A86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4389BDFD1D18D55500E71A86 /* FlashBackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashBackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4389BE011D18D55500E71A86 /* FlashBackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashBackTests.swift; sourceTree = "<group>"; };
+		4389BE031D18D55500E71A86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4389BE081D18D55500E71A86 /* FlashBackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashBackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4389BE0C1D18D55500E71A86 /* FlashBackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashBackUITests.swift; sourceTree = "<group>"; };
+		4389BE0E1D18D55500E71A86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4389BDE61D18D55500E71A86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4389BDFA1D18D55500E71A86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4389BE051D18D55500E71A86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4389BDE01D18D55400E71A86 = {
+			isa = PBXGroup;
+			children = (
+				4389BDEB1D18D55500E71A86 /* FlashBack */,
+				4389BE001D18D55500E71A86 /* FlashBackTests */,
+				4389BE0B1D18D55500E71A86 /* FlashBackUITests */,
+				4389BDEA1D18D55500E71A86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4389BDEA1D18D55500E71A86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4389BDE91D18D55500E71A86 /* FlashBack.app */,
+				4389BDFD1D18D55500E71A86 /* FlashBackTests.xctest */,
+				4389BE081D18D55500E71A86 /* FlashBackUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4389BDEB1D18D55500E71A86 /* FlashBack */ = {
+			isa = PBXGroup;
+			children = (
+				4389BDEC1D18D55500E71A86 /* AppDelegate.swift */,
+				4389BDEE1D18D55500E71A86 /* ViewController.swift */,
+				4389BDF01D18D55500E71A86 /* Main.storyboard */,
+				4389BDF31D18D55500E71A86 /* Assets.xcassets */,
+				4389BDF51D18D55500E71A86 /* LaunchScreen.storyboard */,
+				4389BDF81D18D55500E71A86 /* Info.plist */,
+			);
+			path = FlashBack;
+			sourceTree = "<group>";
+		};
+		4389BE001D18D55500E71A86 /* FlashBackTests */ = {
+			isa = PBXGroup;
+			children = (
+				4389BE011D18D55500E71A86 /* FlashBackTests.swift */,
+				4389BE031D18D55500E71A86 /* Info.plist */,
+			);
+			path = FlashBackTests;
+			sourceTree = "<group>";
+		};
+		4389BE0B1D18D55500E71A86 /* FlashBackUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4389BE0C1D18D55500E71A86 /* FlashBackUITests.swift */,
+				4389BE0E1D18D55500E71A86 /* Info.plist */,
+			);
+			path = FlashBackUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4389BDE81D18D55500E71A86 /* FlashBack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4389BE111D18D55500E71A86 /* Build configuration list for PBXNativeTarget "FlashBack" */;
+			buildPhases = (
+				4389BDE51D18D55500E71A86 /* Sources */,
+				4389BDE61D18D55500E71A86 /* Frameworks */,
+				4389BDE71D18D55500E71A86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlashBack;
+			productName = FlashBack;
+			productReference = 4389BDE91D18D55500E71A86 /* FlashBack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4389BDFC1D18D55500E71A86 /* FlashBackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4389BE141D18D55500E71A86 /* Build configuration list for PBXNativeTarget "FlashBackTests" */;
+			buildPhases = (
+				4389BDF91D18D55500E71A86 /* Sources */,
+				4389BDFA1D18D55500E71A86 /* Frameworks */,
+				4389BDFB1D18D55500E71A86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4389BDFF1D18D55500E71A86 /* PBXTargetDependency */,
+			);
+			name = FlashBackTests;
+			productName = FlashBackTests;
+			productReference = 4389BDFD1D18D55500E71A86 /* FlashBackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4389BE071D18D55500E71A86 /* FlashBackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4389BE171D18D55500E71A86 /* Build configuration list for PBXNativeTarget "FlashBackUITests" */;
+			buildPhases = (
+				4389BE041D18D55500E71A86 /* Sources */,
+				4389BE051D18D55500E71A86 /* Frameworks */,
+				4389BE061D18D55500E71A86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4389BE0A1D18D55500E71A86 /* PBXTargetDependency */,
+			);
+			name = FlashBackUITests;
+			productName = FlashBackUITests;
+			productReference = 4389BE081D18D55500E71A86 /* FlashBackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4389BDE11D18D55400E71A86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jack Chen";
+				TargetAttributes = {
+					4389BDE81D18D55500E71A86 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					4389BDFC1D18D55500E71A86 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 4389BDE81D18D55500E71A86;
+					};
+					4389BE071D18D55500E71A86 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 4389BDE81D18D55500E71A86;
+					};
+				};
+			};
+			buildConfigurationList = 4389BDE41D18D55400E71A86 /* Build configuration list for PBXProject "FlashBack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4389BDE01D18D55400E71A86;
+			productRefGroup = 4389BDEA1D18D55500E71A86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4389BDE81D18D55500E71A86 /* FlashBack */,
+				4389BDFC1D18D55500E71A86 /* FlashBackTests */,
+				4389BE071D18D55500E71A86 /* FlashBackUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4389BDE71D18D55500E71A86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4389BDF71D18D55500E71A86 /* LaunchScreen.storyboard in Resources */,
+				4389BDF41D18D55500E71A86 /* Assets.xcassets in Resources */,
+				4389BDF21D18D55500E71A86 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4389BDFB1D18D55500E71A86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4389BE061D18D55500E71A86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4389BDE51D18D55500E71A86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4389BDEF1D18D55500E71A86 /* ViewController.swift in Sources */,
+				4389BDED1D18D55500E71A86 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4389BDF91D18D55500E71A86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4389BE021D18D55500E71A86 /* FlashBackTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4389BE041D18D55500E71A86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4389BE0D1D18D55500E71A86 /* FlashBackUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4389BDFF1D18D55500E71A86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4389BDE81D18D55500E71A86 /* FlashBack */;
+			targetProxy = 4389BDFE1D18D55500E71A86 /* PBXContainerItemProxy */;
+		};
+		4389BE0A1D18D55500E71A86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4389BDE81D18D55500E71A86 /* FlashBack */;
+			targetProxy = 4389BE091D18D55500E71A86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4389BDF01D18D55500E71A86 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4389BDF11D18D55500E71A86 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4389BDF51D18D55500E71A86 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4389BDF61D18D55500E71A86 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4389BE0F1D18D55500E71A86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4389BE101D18D55500E71A86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4389BE121D18D55500E71A86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlashBack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FlashBack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4389BE131D18D55500E71A86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlashBack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FlashBack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4389BE151D18D55500E71A86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FlashBackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FlashBackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlashBack.app/FlashBack";
+			};
+			name = Debug;
+		};
+		4389BE161D18D55500E71A86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FlashBackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FlashBackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlashBack.app/FlashBack";
+			};
+			name = Release;
+		};
+		4389BE181D18D55500E71A86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FlashBackUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FlashBackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FlashBack;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4389BE191D18D55500E71A86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FlashBackUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FlashBackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FlashBack;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4389BDE41D18D55400E71A86 /* Build configuration list for PBXProject "FlashBack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4389BE0F1D18D55500E71A86 /* Debug */,
+				4389BE101D18D55500E71A86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4389BE111D18D55500E71A86 /* Build configuration list for PBXNativeTarget "FlashBack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4389BE121D18D55500E71A86 /* Debug */,
+				4389BE131D18D55500E71A86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4389BE141D18D55500E71A86 /* Build configuration list for PBXNativeTarget "FlashBackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4389BE151D18D55500E71A86 /* Debug */,
+				4389BE161D18D55500E71A86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4389BE171D18D55500E71A86 /* Build configuration list for PBXNativeTarget "FlashBackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4389BE181D18D55500E71A86 /* Debug */,
+				4389BE191D18D55500E71A86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4389BDE11D18D55400E71A86 /* Project object */;
+}
