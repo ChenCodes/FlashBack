@@ -1,25 +1,211 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1509" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="euQ-mY-OTy">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FlashBack" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
+        <!--Game Screen-->
+        <scene sceneID="nYl-1Q-DeF">
+            <objects>
+                <viewController id="euQ-mY-OTy" customClass="gameScreen" customModule="FlashBack" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vUb-i7-SCm"/>
+                        <viewControllerLayoutGuide type="bottom" id="I03-EZ-oJJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yrK-iM-hRZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="flashbackBackground" translatesAutoresizingMaskIntoConstraints="NO" id="5qs-vu-wcg">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xdM-uI-NYT">
+                                <rect key="frame" x="45" y="150" width="86" height="83"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="platformZeroPressed:" destination="euQ-mY-OTy" eventType="touchUpInside" id="suf-W1-P2X"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Level is: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DSR-5H-gGY">
+                                <rect key="frame" x="137" y="45" width="118" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wdW-zh-jpf">
+                                <rect key="frame" x="45" y="262" width="86" height="84"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="platformThreePressed:" destination="euQ-mY-OTy" eventType="touchUpInside" id="Mmf-lT-JTk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fg7-Ro-nBL">
+                                <rect key="frame" x="149" y="262" width="81" height="84"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="platformFourPressed:" destination="euQ-mY-OTy" eventType="touchUpInside" id="D8a-Uz-UyO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ItP-DW-AZF">
+                                <rect key="frame" x="149" y="150" width="75" height="83"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="platformOnePressed:" destination="euQ-mY-OTy" eventType="touchUpInside" id="koe-t3-KSj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0I7-nP-SaS">
+                                <rect key="frame" x="247" y="150" width="85" height="83"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="platformTwoPressed:" destination="euQ-mY-OTy" eventType="touchUpInside" id="IHX-Dd-ZYB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L49-ft-Ln2">
+                                <rect key="frame" x="247" y="262" width="85" height="84"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="platformFivePressed:" destination="euQ-mY-OTy" eventType="touchUpInside" id="wJY-xu-OJy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Lo-sh-fne">
+                                <rect key="frame" x="45" y="374" width="86" height="81"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="platformSixPressed:" destination="euQ-mY-OTy" eventType="touchUpInside" id="b1r-9h-WZY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nuy-ND-SkK">
+                                <rect key="frame" x="149" y="374" width="81" height="83"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="platformSevenPressed:" destination="euQ-mY-OTy" eventType="touchUpInside" id="iYy-Gf-1zR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yQO-Jr-Lze">
+                                <rect key="frame" x="247" y="374" width="85" height="83"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="platformEightPressed:" destination="euQ-mY-OTy" eventType="touchUpInside" id="Vvk-24-goy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rTp-KJ-IfJ">
+                                <rect key="frame" x="45" y="484" width="86" height="82"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="platformNinePressed:" destination="euQ-mY-OTy" eventType="touchUpInside" id="eHL-Py-Rkd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Un9-LH-yrl">
+                                <rect key="frame" x="149" y="484" width="81" height="82"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="platformTenPressed:" destination="euQ-mY-OTy" eventType="touchUpInside" id="9SS-Wl-eCp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WQd-rN-Ngp">
+                                <rect key="frame" x="247" y="484" width="85" height="82"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="platformElevenPressed:" destination="euQ-mY-OTy" eventType="touchUpInside" id="LE9-27-hT2"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z7A-HN-j7C">
+                                <rect key="frame" x="253" y="14" width="86" height="108"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="13O-ZA-5sH">
+                                <rect key="frame" x="45" y="150" width="86" height="83"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fjX-25-iNV">
+                                <rect key="frame" x="144" y="150" width="86" height="83"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9KS-rl-czK">
+                                <rect key="frame" x="247" y="150" width="80" height="83"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LIz-91-RyJ">
+                                <rect key="frame" x="45" y="262" width="86" height="84"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fyZ-yE-lIr">
+                                <rect key="frame" x="144" y="262" width="86" height="84"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CVb-nt-Enb">
+                                <rect key="frame" x="247" y="262" width="85" height="84"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oRJ-ih-jvv">
+                                <rect key="frame" x="45" y="374" width="86" height="83"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nkN-ZJ-2il">
+                                <rect key="frame" x="149" y="374" width="81" height="83"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aVS-mK-xHA">
+                                <rect key="frame" x="247" y="374" width="85" height="81"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VmT-yu-PHb">
+                                <rect key="frame" x="45" y="484" width="86" height="82"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8Id-CX-3Mt">
+                                <rect key="frame" x="144" y="484" width="86" height="82"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="C0W-pj-UKU">
+                                <rect key="frame" x="247" y="484" width="85" height="82"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="levelLabel" destination="DSR-5H-gGY" id="WGZ-nw-7RF"/>
+                        <outlet property="levelUpImage" destination="z7A-HN-j7C" id="gNZ-Ox-JRQ"/>
+                        <outlet property="platformEight" destination="yQO-Jr-Lze" id="IMg-cO-wo3"/>
+                        <outlet property="platformEightImage" destination="aVS-mK-xHA" id="yQI-WR-y5Q"/>
+                        <outlet property="platformEleven" destination="WQd-rN-Ngp" id="mXh-og-GfX"/>
+                        <outlet property="platformElevenImage" destination="C0W-pj-UKU" id="vIs-Pz-MDA"/>
+                        <outlet property="platformFive" destination="L49-ft-Ln2" id="5uu-9H-gEQ"/>
+                        <outlet property="platformFiveImage" destination="CVb-nt-Enb" id="Ke1-2z-tpo"/>
+                        <outlet property="platformFour" destination="fg7-Ro-nBL" id="LfN-3C-uza"/>
+                        <outlet property="platformFourImage" destination="fyZ-yE-lIr" id="8Kx-mA-3En"/>
+                        <outlet property="platformNine" destination="rTp-KJ-IfJ" id="3Aj-Fb-p5O"/>
+                        <outlet property="platformNineImage" destination="VmT-yu-PHb" id="5Yg-iM-Ati"/>
+                        <outlet property="platformOne" destination="ItP-DW-AZF" id="5r7-4M-XXz"/>
+                        <outlet property="platformOneImage" destination="fjX-25-iNV" id="Rzc-pK-eAA"/>
+                        <outlet property="platformSeven" destination="nuy-ND-SkK" id="kC1-Ue-D31"/>
+                        <outlet property="platformSevenImage" destination="nkN-ZJ-2il" id="sZw-iy-c8r"/>
+                        <outlet property="platformSix" destination="3Lo-sh-fne" id="Fsa-IE-Rnr"/>
+                        <outlet property="platformSixImage" destination="oRJ-ih-jvv" id="qxS-dt-2Uz"/>
+                        <outlet property="platformTen" destination="Un9-LH-yrl" id="uFT-Sm-Fmo"/>
+                        <outlet property="platformTenImage" destination="8Id-CX-3Mt" id="PMG-SV-Nl3"/>
+                        <outlet property="platformThree" destination="wdW-zh-jpf" id="qPx-GW-SUA"/>
+                        <outlet property="platformThreeImage" destination="LIz-91-RyJ" id="xL3-Qp-hhC"/>
+                        <outlet property="platformTwo" destination="0I7-nP-SaS" id="DrC-Mf-U3W"/>
+                        <outlet property="platformTwoImage" destination="9KS-rl-czK" id="8iA-7D-nru"/>
+                        <outlet property="platformZero" destination="xdM-uI-NYT" id="9I9-uH-JBT"/>
+                        <outlet property="platformZeroImage" destination="13O-ZA-5sH" id="0EG-Xh-khj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jaa-Ne-xbs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="697.5" y="338.5"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="flashbackBackground" width="640" height="1136"/>
+    </resources>
 </document>

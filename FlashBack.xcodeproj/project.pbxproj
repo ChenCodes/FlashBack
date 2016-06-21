@@ -14,6 +14,7 @@
 		4389BDF71D18D55500E71A86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4389BDF51D18D55500E71A86 /* LaunchScreen.storyboard */; };
 		4389BE021D18D55500E71A86 /* FlashBackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4389BE011D18D55500E71A86 /* FlashBackTests.swift */; };
 		4389BE0D1D18D55500E71A86 /* FlashBackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4389BE0C1D18D55500E71A86 /* FlashBackUITests.swift */; };
+		4389BE1B1D18D79300E71A86 /* gameScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4389BE1A1D18D79300E71A86 /* gameScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		4389BE081D18D55500E71A86 /* FlashBackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashBackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4389BE0C1D18D55500E71A86 /* FlashBackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashBackUITests.swift; sourceTree = "<group>"; };
 		4389BE0E1D18D55500E71A86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4389BE1A1D18D79300E71A86 /* gameScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gameScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				4389BDEC1D18D55500E71A86 /* AppDelegate.swift */,
 				4389BDEE1D18D55500E71A86 /* ViewController.swift */,
 				4389BDF01D18D55500E71A86 /* Main.storyboard */,
+				4389BE1A1D18D79300E71A86 /* gameScreen.swift */,
 				4389BDF31D18D55500E71A86 /* Assets.xcassets */,
 				4389BDF51D18D55500E71A86 /* LaunchScreen.storyboard */,
 				4389BDF81D18D55500E71A86 /* Info.plist */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4389BE1B1D18D79300E71A86 /* gameScreen.swift in Sources */,
 				4389BDEF1D18D55500E71A86 /* ViewController.swift in Sources */,
 				4389BDED1D18D55500E71A86 /* AppDelegate.swift in Sources */,
 			);
