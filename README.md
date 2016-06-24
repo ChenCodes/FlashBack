@@ -12,3 +12,6 @@ Happy tapping!
 
 ####Demo Animation:
 ![Demo](https://s32.postimg.org/sbl7jyyvp/flash_Back_Video.gif)
+
+Completion date:
+6/23/16
