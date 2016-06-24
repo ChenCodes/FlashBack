@@ -4,6 +4,11 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="visitor1.ttf">
+            <string>VisitorTT1BRK</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -38,134 +43,122 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="flashbackBackground" translatesAutoresizingMaskIntoConstraints="NO" id="5qs-vu-wcg">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xdM-uI-NYT">
-                                <rect key="frame" x="45" y="150" width="86" height="83"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xdM-uI-NYT">
+                                <rect key="frame" x="45" y="189" width="86" height="83"/>
                                 <connections>
                                     <action selector="platformZeroPressed:" destination="euQ-mY-OTy" eventType="touchUpInside" id="suf-W1-P2X"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Level is: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DSR-5H-gGY">
-                                <rect key="frame" x="137" y="45" width="118" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="36" y="87" width="217" height="49"/>
+                                <fontDescription key="fontDescription" name="VisitorTT1BRK" family="Visitor TT1 BRK" pointSize="32"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wdW-zh-jpf">
-                                <rect key="frame" x="45" y="262" width="86" height="84"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wdW-zh-jpf">
+                                <rect key="frame" x="45" y="298" width="86" height="84"/>
                                 <connections>
                                     <action selector="platformThreePressed:" destination="euQ-mY-OTy" eventType="touchUpInside" id="Mmf-lT-JTk"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fg7-Ro-nBL">
-                                <rect key="frame" x="149" y="262" width="81" height="84"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fg7-Ro-nBL">
+                                <rect key="frame" x="149" y="298" width="81" height="84"/>
                                 <connections>
                                     <action selector="platformFourPressed:" destination="euQ-mY-OTy" eventType="touchUpInside" id="D8a-Uz-UyO"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ItP-DW-AZF">
-                                <rect key="frame" x="149" y="150" width="75" height="83"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ItP-DW-AZF">
+                                <rect key="frame" x="150" y="189" width="75" height="83"/>
                                 <connections>
                                     <action selector="platformOnePressed:" destination="euQ-mY-OTy" eventType="touchUpInside" id="koe-t3-KSj"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0I7-nP-SaS">
-                                <rect key="frame" x="247" y="150" width="85" height="83"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0I7-nP-SaS">
+                                <rect key="frame" x="247" y="189" width="85" height="83"/>
                                 <connections>
                                     <action selector="platformTwoPressed:" destination="euQ-mY-OTy" eventType="touchUpInside" id="IHX-Dd-ZYB"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L49-ft-Ln2">
-                                <rect key="frame" x="247" y="262" width="85" height="84"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L49-ft-Ln2">
+                                <rect key="frame" x="247" y="298" width="85" height="84"/>
                                 <connections>
                                     <action selector="platformFivePressed:" destination="euQ-mY-OTy" eventType="touchUpInside" id="wJY-xu-OJy"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Lo-sh-fne">
-                                <rect key="frame" x="45" y="374" width="86" height="81"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Lo-sh-fne">
+                                <rect key="frame" x="45" y="411" width="86" height="81"/>
                                 <connections>
                                     <action selector="platformSixPressed:" destination="euQ-mY-OTy" eventType="touchUpInside" id="b1r-9h-WZY"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nuy-ND-SkK">
-                                <rect key="frame" x="149" y="374" width="81" height="83"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nuy-ND-SkK">
+                                <rect key="frame" x="149" y="411" width="81" height="83"/>
                                 <connections>
                                     <action selector="platformSevenPressed:" destination="euQ-mY-OTy" eventType="touchUpInside" id="iYy-Gf-1zR"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yQO-Jr-Lze">
-                                <rect key="frame" x="247" y="374" width="85" height="83"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yQO-Jr-Lze">
+                                <rect key="frame" x="247" y="411" width="85" height="83"/>
                                 <connections>
                                     <action selector="platformEightPressed:" destination="euQ-mY-OTy" eventType="touchUpInside" id="Vvk-24-goy"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rTp-KJ-IfJ">
-                                <rect key="frame" x="45" y="484" width="86" height="82"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rTp-KJ-IfJ">
+                                <rect key="frame" x="45" y="522" width="86" height="82"/>
                                 <connections>
                                     <action selector="platformNinePressed:" destination="euQ-mY-OTy" eventType="touchUpInside" id="eHL-Py-Rkd"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Un9-LH-yrl">
-                                <rect key="frame" x="149" y="484" width="81" height="82"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Un9-LH-yrl">
+                                <rect key="frame" x="149" y="522" width="81" height="82"/>
                                 <connections>
                                     <action selector="platformTenPressed:" destination="euQ-mY-OTy" eventType="touchUpInside" id="9SS-Wl-eCp"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WQd-rN-Ngp">
-                                <rect key="frame" x="247" y="484" width="85" height="82"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WQd-rN-Ngp">
+                                <rect key="frame" x="247" y="522" width="85" height="82"/>
                                 <connections>
                                     <action selector="platformElevenPressed:" destination="euQ-mY-OTy" eventType="touchUpInside" id="LE9-27-hT2"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z7A-HN-j7C">
-                                <rect key="frame" x="253" y="14" width="86" height="108"/>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="13O-ZA-5sH">
-                                <rect key="frame" x="45" y="150" width="86" height="83"/>
+                                <rect key="frame" x="45" y="186" width="86" height="83"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fjX-25-iNV">
-                                <rect key="frame" x="144" y="150" width="86" height="83"/>
+                                <rect key="frame" x="146" y="186" width="86" height="83"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9KS-rl-czK">
-                                <rect key="frame" x="247" y="150" width="80" height="83"/>
+                                <rect key="frame" x="247" y="186" width="80" height="83"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LIz-91-RyJ">
-                                <rect key="frame" x="45" y="262" width="86" height="84"/>
+                                <rect key="frame" x="45" y="298" width="86" height="84"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fyZ-yE-lIr">
-                                <rect key="frame" x="144" y="262" width="86" height="84"/>
+                                <rect key="frame" x="144" y="298" width="86" height="84"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CVb-nt-Enb">
-                                <rect key="frame" x="247" y="262" width="85" height="84"/>
+                                <rect key="frame" x="247" y="298" width="85" height="84"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oRJ-ih-jvv">
-                                <rect key="frame" x="45" y="374" width="86" height="83"/>
+                                <rect key="frame" x="45" y="410" width="86" height="83"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nkN-ZJ-2il">
-                                <rect key="frame" x="149" y="374" width="81" height="83"/>
+                                <rect key="frame" x="149" y="410" width="81" height="83"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aVS-mK-xHA">
-                                <rect key="frame" x="247" y="374" width="85" height="81"/>
+                                <rect key="frame" x="247" y="410" width="85" height="82"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VmT-yu-PHb">
-                                <rect key="frame" x="45" y="484" width="86" height="82"/>
+                                <rect key="frame" x="45" y="522" width="86" height="82"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8Id-CX-3Mt">
-                                <rect key="frame" x="144" y="484" width="86" height="82"/>
+                                <rect key="frame" x="144" y="522" width="86" height="82"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="C0W-pj-UKU">
-                                <rect key="frame" x="247" y="484" width="85" height="82"/>
+                                <rect key="frame" x="247" y="522" width="85" height="82"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z7A-HN-j7C">
+                                <rect key="frame" x="272" y="77" width="71" height="70"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

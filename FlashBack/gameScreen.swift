@@ -90,7 +90,7 @@ class gameScreen: UIViewController {
             count += 1
         }
         
-        var delayTime = 0.5
+        var delayTime = 0.2
 
 
         
@@ -98,25 +98,39 @@ class gameScreen: UIViewController {
         for element in checkArray {
 
             checkElement = element
-            print("my chosen platform is: ", checkElement)
-            let image = UIImage(named: "android.png") as UIImage!
+
+            var image = UIImage(named: "swoleBlueBomb.png")
+//            
+            var chosenNumber = arc4random_uniform(3)
+            print(chosenNumber)
+            switch chosenNumber {
+            case 0:
+                image = UIImage(named: "redSwoleBomb.png")
+                break
+            case 1:
+                image = UIImage(named: "greenSwoleBomb.png")
+                break
+            case 2:
+                image = UIImage(named: "swoleBlueBomb.png")
+                break
+            default:
+                print("uh oh")
+                break
+            }
+            
+
             let noImage = UIImage(named: "none.png") as UIImage!
             
-        
             if element == 0 {
-                print("should be right after my chosen platform???")
                 self.delay(delayTime++) {
                     self.platformZeroImage.image = image
                 }
 
                 self.delay(delayTime++) {
                     self.platformZeroImage.image = noImage
-
                 }
 
             } else if element == 1 {
-                print("should be right after my chosen platform???")
-                
                 self.delay(delayTime++) {
                     self.platformOneImage.image = image
                 }
@@ -127,7 +141,6 @@ class gameScreen: UIViewController {
                 }
 
             } else if element == 2 {
-                print("should be right after my chosen platform???")
                 self.delay(delayTime++) {
                     self.platformTwoImage.image = image
                 }
@@ -138,7 +151,7 @@ class gameScreen: UIViewController {
                 }
                 
             } else if element == 3 {
-                print("should be right after my chosen platform???")
+
                 self.delay(delayTime++) {
                     self.platformThreeImage.image = image
                 }

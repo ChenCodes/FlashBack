@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		432D5F6B1D1CCAEF00F97119 /* visitor1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 432D5F6A1D1CCAEF00F97119 /* visitor1.ttf */; };
 		4389BDED1D18D55500E71A86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4389BDEC1D18D55500E71A86 /* AppDelegate.swift */; };
 		4389BDEF1D18D55500E71A86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4389BDEE1D18D55500E71A86 /* ViewController.swift */; };
 		4389BDF21D18D55500E71A86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4389BDF01D18D55500E71A86 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		432D5F6A1D1CCAEF00F97119 /* visitor1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = visitor1.ttf; sourceTree = "<group>"; };
 		4389BDE91D18D55500E71A86 /* FlashBack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashBack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4389BDEC1D18D55500E71A86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4389BDEE1D18D55500E71A86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 		4389BDEB1D18D55500E71A86 /* FlashBack */ = {
 			isa = PBXGroup;
 			children = (
+				432D5F6A1D1CCAEF00F97119 /* visitor1.ttf */,
 				4389BDEC1D18D55500E71A86 /* AppDelegate.swift */,
 				4389BDEE1D18D55500E71A86 /* ViewController.swift */,
 				4389BDF01D18D55500E71A86 /* Main.storyboard */,
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4389BDF71D18D55500E71A86 /* LaunchScreen.storyboard in Resources */,
+				432D5F6B1D1CCAEF00F97119 /* visitor1.ttf in Resources */,
 				4389BDF41D18D55500E71A86 /* Assets.xcassets in Resources */,
 				4389BDF21D18D55500E71A86 /* Main.storyboard in Resources */,
 			);
@@ -486,6 +490,7 @@
 				4389BE131D18D55500E71A86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4389BE141D18D55500E71A86 /* Build configuration list for PBXNativeTarget "FlashBackTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +499,7 @@
 				4389BE161D18D55500E71A86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4389BE171D18D55500E71A86 /* Build configuration list for PBXNativeTarget "FlashBackUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +508,7 @@
 				4389BE191D18D55500E71A86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
